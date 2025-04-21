@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/buttonContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/playAudioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Audio" />
+
+    <Button
+        android:id="@+id/playVideoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Video" />
+
+    <Button
+        android:id="@+id/playAudioOnlineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Audio Online"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/playVideoOnlineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Video Online"
+        android:visibility="gone" />
+
+</LinearLayout>
